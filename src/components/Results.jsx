@@ -9,7 +9,7 @@ export default function Results({ userInput }) {
 
   console.log(resultsData);
   return (
-    <table>
+    <table id="result">
       <thead>
         <tr>
           <th>Year</th>
